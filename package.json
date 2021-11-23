@@ -1,0 +1,40 @@
+{
+  "name": "search-engine-for-books",
+  "homepage": " https://joshtlil.github.io/search-engine-for-books/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+  
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshTlil/search-engine-for-books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshTlil/search-engine-for-books/issues"
+  }
+  
+}
